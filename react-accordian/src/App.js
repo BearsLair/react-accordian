@@ -6,7 +6,7 @@ const App = () => {
     <div>
       <div className="accordion">
         {accordionData.map(({ title, content }) => {
-          <Accordion title={title} content={content} />;
+          return <Accordion title={title} content={content} />;
         })}
       </div>
     </div>
